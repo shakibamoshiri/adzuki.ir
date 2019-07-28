@@ -1,11 +1,11 @@
 {
     "home": {
-        "backend": {
-            "node.js": ""
-        },
-        "frontend": {
-            "js": "",
-            "html": ""
-        }
+        "consideration": "",
+        "technologies": "",
+        "tools": "",
+        "document": "",
+        "example": "",
+        "architecture": "",
+        "source": ""
     }
 }
