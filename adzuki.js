@@ -9,7 +9,7 @@ const rm       = require( "./route-manager/routeManager" );
 const dm       = require( "./database-manager/databaseManager" );
 
 const adzuki = express();
-const PORT     = 1400;
+const PORT     = 1404;
 
 const log = console.log;
 const rootPath = __dirname;
