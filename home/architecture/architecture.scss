@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fff;
+}
+
+div.main {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 300px;
+    .description {
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: auto;
+        text-align: center;
+        height: 200px;
+        font-weight: bold;
+        .explain {
+            letter-spacing: 1.7px;
+        }
+    }
+}
+
+div.footer {
+    flex: 0 1 auto;
+    .links {
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+        > * {
+            flex: 1 1 auto;
+            margin: 5px;
+        }
+        .MuiButton-containedPrimary,
+        .MuiButton-containedSecondary {
+            width: 100%;
+        }
+    }
+}
