@@ -45,7 +45,8 @@ div.footer {
             flex: 1 1 150px;
             margin: 10px;
         }
-        .MuiButton-containedPrimary {
+        .MuiButton-containedPrimary,
+        .MuiButton-containedSecondary {
             width: 100%;
         }
     }
