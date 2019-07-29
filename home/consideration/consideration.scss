@@ -1,0 +1,17 @@
+
+div.footer {
+    flex: 0 1 auto;
+    .links {
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+        > * {
+            flex: 1 1 auto;
+            margin: 5px;
+        }
+        .MuiButton-containedPrimary,
+        .MuiButton-containedSecondary {
+            width: 100%;
+        }
+    }
+}
