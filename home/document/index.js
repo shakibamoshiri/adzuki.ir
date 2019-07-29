@@ -1,10 +1,43 @@
 import React, { Fragment, Component } from "react";
 import { render } from "react-dom";
+import Button from '@material-ui/core/Button';
+const log = console.log;
 
-const rootJs = <Fragment>
-    <h1>document</h1>
-    <p>This is React.js part; ready to go.</p>
-</Fragment>;
+const Title = ( props ) => {
+    return <h1>{ props.children }</h1>
+}
+
+const SubTitle = ( props ) => {
+    return <h3 className="sub-title">{ props.children }</h3>
+}
+
+const Page = ( props ) => {
+    return props.children;
+}
+
+const Strong = ( props ) => {
+    return <strong style={{ color: props.color }} >{ props.children }</strong>
+}
+
+const root = <Page>
+    <Title>document</Title>
+    <hr />
+</Page>;
 
 const rootHtml = document.getElementById( "root" );
-render( rootJs, rootHtml );
+render( root, rootHtml );
+
+const footerJs = <Fragment>
+    <div className="links">
+        <a href="/"><Button size="small" variant="contained" color="primary"> home </Button></a>
+        <a href="/consideration"><Button size="small" variant="contained" color="primary"> consideration </Button></a>
+        <a href="/technologies"><Button size="small" variant="contained" color="primary"> technologies </Button></a>
+        <a href="/tools"><Button size="small" variant="contained" color="primary"> tools </Button></a>
+        <a href="/example"><Button size="small" variant="contained" color="secondary"> example </Button></a>
+        <a href="/architecture"><Button size="small" variant="contained" color="primary"> architecture </Button></a>
+        <a href="/source"><Button size="small" variant="contained" color="primary"> source </Button></a>
+    </div>
+</Fragment>;
+
+const footer = document.getElementById( "footer" );
+render( footerJs, footer );
