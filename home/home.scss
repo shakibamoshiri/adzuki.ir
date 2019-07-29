@@ -11,6 +11,11 @@ body {
     flex-flow: column nowrap;
     background-color: #fff;
     color: #c80000;
+    background-image: url(/build/svg/black_white_minus_45deg.svg),
+                      url(/build/svg/black_white_135deg.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% 100%, 50% 100%;
+    background-position: top left, top right;
 }
 
 div.main {
@@ -19,8 +24,8 @@ div.main {
     min-height: 300px;
     .description {
         position: absolute;
-        left: 15%;
-        right: 15%;
+        left: 0;
+        right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
@@ -39,11 +44,10 @@ div.footer {
     .links {
         display: flex;
         flex-flow: row wrap;
-        width: 50%;
         margin: auto;
         > * {
-            flex: 1 1 150px;
-            margin: 10px;
+            flex: 1 1 auto;
+            margin: 5px;
         }
         .MuiButton-containedPrimary,
         .MuiButton-containedSecondary {
