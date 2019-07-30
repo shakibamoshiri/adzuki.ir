@@ -23,12 +23,12 @@ const root = <Page>
     <Title>architecture</Title>
     <hr />
     <p><Strong color="#c80000">Adzuki</Strong> architecture is based on <a target="_blank" href="http://nodepost.ir">nodepost</a> application.</p>
-    <p>The core functionally have been taken but it has been more specialized into using:</p>
+    <p>The core functionalities have been taken but it has been more specialized into using:</p>
     <ul>
         <li>React.js for UI</li>
         <li>Independent JS, HTML, Scss files so they can be deployed independently.</li>
     </ul>
-    <p>You can read more about nodepost here <a target="_blank" href="http://nodepost.ir/#DBS">Distributed Blogging System</a></p>
+    <p>You can read more about nodepost here <a target="_blank" href="http://nodepost.ir/#DBS">Distributed Blogging System</a>.</p>
 
 </Page>;
 
