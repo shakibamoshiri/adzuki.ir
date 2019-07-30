@@ -91,7 +91,7 @@ render( root, rootHtml );
 const footerJs = <Fragment>
     <div className="links">
         <a href="/"><Button size="small" variant="contained" color="primary"> home </Button></a>
-        <Button size="small" variant="contained" color="default"> considerations </Button>
+        <Button size="small" variant="contained" color="default"> consideration </Button>
         <a href="/technologies"><Button size="small" variant="contained" color="secondary"> technologies </Button></a>
         <a href="/tools"><Button size="small" variant="contained" color="primary"> tools </Button></a>
         <a href="/document"><Button size="small" variant="contained" color="primary"> document </Button></a>
