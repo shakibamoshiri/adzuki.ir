@@ -22,7 +22,7 @@ const Strong = ( props ) => {
 const root = <Page>
     <Title>source</Title>
     <hr />
-    <p>Source code is available on GitHub at: <a taget="_blank" href="https://github.com/k-five/adzuki">github.com/k-five/adzuki</a>.</p>
+    <p>Source code is available on GitHub at: <a target="_blank" href="https://github.com/k-five/adzuki">github.com/k-five/adzuki</a>.</p>
     <p>Also download it as tar.gz file:</p>
     <ol>
         <li>link</li>
