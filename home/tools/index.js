@@ -22,7 +22,7 @@ const Strong = ( props ) => {
 const root = <Page>
     <Title>tools</Title>
     <hr />
-    <p>Users of <Strong color="#c80000">Adzuki</Strong> somehow has to deal with these tools.</p>
+    <p>Users of <Strong color="#c80000">Adzuki</Strong> somehow have to deal with these tools.</p>
 
     <SubTitle><Strong color="#c80000">Adzuki</Strong></SubTitle>
     <p>The application - other than as a server - is a <strong>utility</strong> that deals with <strong>File-System</strong>.</p>
@@ -30,12 +30,11 @@ const root = <Page>
     
     <SubTitle>Terminal</SubTitle>
     <p>The application is run from a Terminal and having a Terminal is a must.</p>
-    <p>Here is a screenshot of when we run it the application.</p>
+    <p>Here is a screenshot of when we run it.</p>
     <img width="100%" src="/build/img/adzuki-05-localhost-1400.png" alt="adzuki-05-localhost-1400.png" />
 
     <SubTitle>webpack and babel</SubTitle>
     <p>These two tools have been configured in the source code to <strong>transpile</strong> and <strong>bundle</strong> JSX files to JS files.</p>
-    <p>Webpack can be run manually or can be automated on both Desktop or Sever using some <strong>bash</strong> script.</p>
 
     <SubTitle>sass</SubTitle>
     <p>This tool is also used to convert <strong>file.scss</strong> to <strong>file.css</strong>.</p>
