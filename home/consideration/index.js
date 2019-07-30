@@ -48,7 +48,7 @@ const Strong = ( props ) => {
 const root = <Page>
     <Title>consideration</Title>
     <hr />
-    <p>here are some considerations surround <Strong color="#c80000">Adzuki</Strong> application.</p>
+    <p>Here are some considerations surround <Strong color="#c80000">Adzuki</Strong> application.</p>
     
     <SubTitle>Micro Front-end Architecture</SubTitle>
     <p>Micro front-end is a new interesting architecture with which we can separate our UI into different smaller parts that can be developed independently.</p>
@@ -63,7 +63,7 @@ const root = <Page>
     <SubTitle>Microservice Architecture</SubTitle>
     <p>By using Node.js as the server and <strong>core</strong> of the application, it is possible to run and deploy it independently.</p>
     <p>This feature allows us to quickly setup and deploy our SPA / Service / Microservice.</p>
-    <p>Because we do not have to <strong>compile</strong> anything nor have to configure anything. It is an on-demand running application.</p>
+    <p>Because we do not have to <strong>compile</strong> anything nor have to <strong>configure </strong> anything. It is an on-demand running application.</p>
 
 
     <SubTitle>CI / CD Pipeline and Automation</SubTitle>
