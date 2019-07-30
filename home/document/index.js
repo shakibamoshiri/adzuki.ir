@@ -28,7 +28,7 @@ const root = <Page>
     <p>Here is a quick start.</p>
 
     <SubTitle>1. Clone the application</SubTitle>
-    <p>First <strong>clone</strong> the application and give it a name to save file there.</p>
+    <p>First <strong>clone</strong> the application and give it a name to save files there.</p>
     <Prism>{`git clone https://github.com/k-five/adzuki name-of-project`}</Prism>
 
     <SubTitle>2. Install dependencies</SubTitle>
@@ -36,16 +36,16 @@ const root = <Page>
     <Prism>{`cd $_ && npm install`}</Prism>
 
     <SubTitle>3. First run</SubTitle>
-    <p>The first run will create all the directories and files</p>
+    <p>The first run will create all the directories and files.</p>
     <Prism>{`./node-dev adzuki.js`}</Prism>
-    <p>Close it by hitting <strong>Ctrl-c</strong></p>
+    <p>Close it by hitting <strong>Ctrl-c</strong>.</p>
 
     <SubTitle>4. Build JSX files</SubTitle>
     <p>Then run <strong>webpack</strong> so all <strong>index.js</strong> files be build by webpack.</p>
     <Prism>{`npm run webpack`}</Prism>
 
     <SubTitle>5. Run, second time</SubTitle>
-    <p>finally with the second run:</p>
+    <p>Finally with the second run:</p>
     <Prism>{`./node-dev adzuki.js`}</Prism>
     <p>you can view it at:</p>
     <Prism>{`localhost:1400`}</Prism>
