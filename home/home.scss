@@ -11,11 +11,13 @@ body {
     flex-flow: column nowrap;
     background-color: #fff;
     color: #c80000;
+    /**
     background-image: url(/build/svg/black_white_minus_45deg.svg),
                       url(/build/svg/black_white_135deg.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 50% 100%, 50% 100%;
     background-position: top left, top right;
+    **/
 }
 
 div.main {
@@ -52,6 +54,9 @@ div.footer {
         .MuiButton-containedPrimary,
         .MuiButton-containedSecondary {
             width: 100%;
+        }
+        * {
+            text-transform: none;
         }
     }
 }

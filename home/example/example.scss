@@ -47,6 +47,9 @@ div.footer {
         .MuiButton-containedSecondary {
             width: 100%;
         }
+        * {
+            text-transform: none;
+        }
     }
 }
 
