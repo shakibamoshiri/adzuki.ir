@@ -25,7 +25,7 @@ const footerJs = <Fragment>
         <a href="technologies"><Button variant="contained" color="primary"> technologies </Button></a>
         <a href="tools"><Button variant="contained" color="primary"> tools </Button></a>
         <a href="document"><Button variant="contained" color="primary"> document </Button></a>
-        <a href="example"><Button variant="contained" color="primary"> example </Button></a>
+        <a href="features"><Button variant="contained" color="primary"> features </Button></a>
         <a href="architecture"><Button variant="contained" color="primary"> architecture </Button></a>
         <a href="source"><Button variant="contained" color="primary"> source </Button></a>
     </div>
